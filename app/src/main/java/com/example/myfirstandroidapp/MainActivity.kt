@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
         btnClickMe.setOnClickListener {
             timesClicked += 1
             myTextView.text = timesClicked.toString()
-            Toast.makeText(this, "Hey I'm toast", Toast.LENGTH_LONG).show()
+            Toast.makeText(this, "First Toast", Toast.LENGTH_LONG).show()
         }
     }
 }
